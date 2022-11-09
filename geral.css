@@ -1,20 +1,30 @@
+body{
+    background: rgb(0, 0, 0);
+}
+
 .calculadora {
-    background: rgb(87, 85, 85);
-    color: black;
+    background: rgb(27, 27, 27);
+    color: rgb(243, 243, 243);
     width: 200px;
     padding: 10px;
     border-radius: 15px;
     text-align: center;
 }
 .calculadora input {
-background:rgb(129, 235, 129);
-color: black;
+background:rgb(0, 0, 0);
+color: rgb(190, 0, 0);
 border-radius: 9px;
 padding: 5px;
 }
+
+.calculadora input:focus{
+    background: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
+}
+
 #sptotal {
-    background: rgb(99, 201, 113);
-    color: black;
+    background: rgb(189, 60, 0);
+    color: rgb(255, 255, 255);
     border-radius: 8px;
     padding: 4px;
     margin-bottom: 10px;
@@ -22,17 +32,17 @@ padding: 5px;
 }
 
 .calculadora button {
-    background:rgb(129, 235, 129);
+    background:rgb(189, 60, 0);
     margin-top: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 9px;
     padding: 5px;
     }
 
     .calculadora button:hover {
-        background:rgb(82, 153, 82);
+        background:rgb(189, 22, 0);
         margin-top: 10px;
-        color: rgb(41, 41, 41);
+        color: rgb(255, 255, 255);
         border-radius: 6px;
         padding: 2px;
         cursor: pointer;
@@ -40,10 +50,11 @@ padding: 5px;
 
 #spListaMeses {
     text-align: start;
-    border-color: aqua;
+    border-color: rgb(175, 64, 0);
     border-style: groove;
     border-width: 1px;
     color: azure;
-    background: blue;
+    background: rgb(196, 0, 0);
     
 }
+                            
