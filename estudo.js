@@ -1,5 +1,5 @@
-let tabuada = 1;
-let nome = "Antonio";
+let tabuada = 1256;
+let nome = "danilton";
 
 function escreva() {
     document.write("tabuada do " + tabuada + "<br>")
@@ -63,7 +63,7 @@ let r = c;
 let texto = "";
 for (let m = 1; m <= t; m++) {
     r = c * (1 + (j / 100));
-    r = r;
+    c = r;
     texto += m + ": " + moeda(r) + "<br>"
     //document.write("Mes " + m + " - valor: " + moeda(r) + "<br>");
 
