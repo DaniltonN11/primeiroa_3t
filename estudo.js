@@ -101,8 +101,8 @@ function calcule() {
 }
 
 function calculaESG(){
-    let a = 3;
-    let b = -2;
+    let a = document.getElementById("a").value;
+    let b = -document.getElementById("b").value;
     let ce = -8;
     delta = (b*b) - (4*a*ce);
     let raiz;
